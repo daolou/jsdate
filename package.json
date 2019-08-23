@@ -1,5 +1,5 @@
 {
-  "name": "datejs",
+  "name": "date-js",
   "version": "1.0.0",
   "description": "javascript date small",
   "main": "es/index.js",
