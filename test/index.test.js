@@ -6,7 +6,7 @@ const ist = '2019-01-01 05:30:00';
 const utc = '2019-01-01 00:00:00';
 const utc_unix = 1546300800000;
 
-describe('#datejs',()=>{
+describe('#jsdate',()=>{
     describe('#UTCTimestamp',()=>{
         it('UTCTimestamp() should return true',()=>{
             return assert.strictEqual(UTCTimestamp(utc,-480),utc_unix)
